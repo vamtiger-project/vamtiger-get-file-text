@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-get-file-text",
-    "version": "0.0.2",
+    "version": "0.0.5-0",
     "description": "Get text data for a defined file path.",
     "main": "build",
     "scripts": {

@@ -1,0 +1,1 @@
+export default 'some file with text';

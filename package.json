@@ -1,12 +1,12 @@
 {
     "name": "vamtiger-get-file-text",
-    "version": "0.0.5",
+    "version": "0.0.6-0",
     "description": "Get text data for a defined file path.",
     "main": "build",
     "scripts": {
         "test": "mocha build/test --recursive",
         "build": "tsc",
-        "commit": "npm run update-lock-file && vamtigerNodeTypescriptCommit --push --publish",
+        "commit": "vamtigerNodeTypescriptCommit --push --publish",
         "update-lock-file": "npm install && yarn install"
     },
     "repository": {
@@ -35,6 +35,6 @@
         "vamtiger-node-typescript-commit": "0.0.51"
     },
     "dependencies": {
-        "vamtiger-get-file-data": "^0.0.4"
+        "vamtiger-get-file-data": "latest"
     }
 }
